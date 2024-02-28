@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: arial;
+     border: border-box; 
+
+}
+.top-main-panel {
+    height: 50px;
+    width: 100%;
+
+    font-family: poppins;
+    color: white;
+    font-size: large;
+    background-color: #096060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    order: 1;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.top-panel {
+    order: 2;
+    display: flex;
+    padding-right: 10px;
+}
+/* .top-main-panel{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+/* .top-panel{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+} */
+.logo-icon{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.top-login{
+    justify-items: center;
+    display: flex;
+    padding-left: 15px;
+}
+.top-login p{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.top-resister{
+    display: flex;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.top-resister a{
+    padding-left: 5px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/* navbar */
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: #b4dce1;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: poppins;
+    font-weight: 550;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-logo{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav-ops {
+    display: flex;
+}
+
+.nav-ops p {
+    margin-right: 15px; /* Adjust the margin as needed for spacing between navigation items */
+}
+.logo{
+    display: flex;
+    justify-content:center ;
+    background-image: url("./picture/tourist.png");
+    height: auto;
+    width: 100px;
+    padding: 12px 12px 12px 12px;
+    background-size: cover;
+}
+.nav-ops p{
+    display: inline;
+}
+.nav-ops {
+    width: 40%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* hero picture */
